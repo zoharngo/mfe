@@ -21,4 +21,7 @@ module.exports = {
       template: './public/index.html',
     }),
   ],
+  optimization: {
+    minimize: false,
+  },
 };
