@@ -13,7 +13,7 @@ const Counter = () => {
   }, [counter]);
 
   return (
-    <div>
+    <div> 
       <h1
         onClick={() => {
           setCounter(10);
