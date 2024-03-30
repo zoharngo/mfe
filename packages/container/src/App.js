@@ -18,8 +18,6 @@ export default () => {
           <Header />
           <Switch>
             <Route path='/auth' component={AuthApp} />
-            {/* <Route path='/cardgame' component={CardsGame} /> */}
-
             <Route path='/' component={MarketingApp} />
           </Switch>
         </div>
