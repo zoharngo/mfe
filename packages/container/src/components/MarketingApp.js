@@ -14,6 +14,7 @@ export default () => {
           history.push(nextPathname); // this is how we navigate to the path that the Marketing App is trying to navigate to
         }
       },
+      initialPath: history.location.pathname,
     });
     history.listen(onParentNavigate);
   }, []);
